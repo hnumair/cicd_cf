@@ -4,7 +4,7 @@ Resources:
   calculator: 
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: s3://numair/calc.py
+      CodeUri: s3://numair/calc
       Handler: calc.calc
       Runtime: python3.8
       Role: "arn:aws:iam::712841247589:role/lambdaRole"
